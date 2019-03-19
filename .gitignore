@@ -1,11 +1,14 @@
 logs/*.json
 config/*.json
-!config/geofence_example.json
-src/app/communityDay/images/*
+!config/examples/*
+!config/default.json
+!config/custom-environment-variables.json
+.env
+src/helpers/commando/commands/filterBackups/*.sql
 node_modules
+package-lock.json
 build
 npm-debug.log
-.env
 .DS_Store
 .idea/*
 .nuxt/*
